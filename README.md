@@ -1,2 +1,2 @@
 # ScWGS
-A WGS pipeline for validating CRISPR edits in Saccharomyces cerevisiae
+A WGS bioinformatics pipeline for validating CRISPR edits in Saccharomyces cerevisiae.
