@@ -6,3 +6,6 @@ Genomic engineering of Saccharomyces cerevisiae has many applications from study
 <br />
 
 ![ScWGS pipeline](https://github.com/OscarW99/ScWGS/blob/main/CRISPR%20validation%20pipeline.png?raw=true) <br />
+
+ScWGS combines two methods of variant detection. The first is alignment of reads to a reference genome using bwa-mem [I'm an inline-style link](https://www.google.com) and then variant calling and variant annotation using GATK haplotypecaller [I'm an inline-style link](https://www.google.com) and SnpEff [I'm an inline-style link](https://www.google.com) respectively.<br />
+The second method uses the _Perfect Match Genomic Landscape_ (PMGL) algorithm [I'm an inline-style link](https://www.google.com). This is a non-statistical solution to the analysis of variation in haploid genomes that decouples the identification of variants from their nature and location.
